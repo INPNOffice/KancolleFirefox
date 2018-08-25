@@ -1,0 +1,18 @@
+{
+  "name": "kancollefirefox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INPNOffice/KancolleFirefox.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INPNOffice/KancolleFirefox/issues"
+  },
+  "homepage": "https://github.com/INPNOffice/KancolleFirefox#readme"
+}
