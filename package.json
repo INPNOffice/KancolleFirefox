@@ -21,6 +21,8 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "copy-webpack-plugin": "^4.5.2",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
     "prettier": "^1.14.2",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
