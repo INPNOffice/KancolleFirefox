@@ -58,3 +58,7 @@ function ARatio(wd, h){
 	};
 }
 console.log("%caRatio.js%c was loaded.", "color:red; font-size:x-large;", "color:#cccccc; vertical-align:bottom;");
+
+module.exports = {
+	ARatio
+};

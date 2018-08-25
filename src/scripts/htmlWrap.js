@@ -1,3 +1,5 @@
+const { ARatio } = require('./aRatio');
+
 var bod = document.getElementsByTagName("body")[0];
 var cvs = new ARatio(document.getElementsByTagName("canvas")[0]);
 var defltcvs = cvs.dObject.style;
