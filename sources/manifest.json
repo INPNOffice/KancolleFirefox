@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "78式火狐上艦隊指揮拡張機能",
 	"short_name": "スマホブラウザで艦これ",
-	"version": "0.0.0.14",
+	"version": "0.0.0.16",
 	"author":"大日本ペイント帝国海軍省",
   	"description": "艦これを全画面にして回してスマホでプレイしやすいようにします",
 	"icons": {

@@ -24,18 +24,10 @@ var tofs = function(){
 	);
 };
 var exit = function(){
-	console.log("もどした");
 	cvs.dObject.style = defltcvs;
 	document.removeEventListener("mozfullscreenchange", exit);
 	bod.addEventListener("click", tofs);
+	console.log("もどした");
 };
 bod.addEventListener("click", tofs);
 console.log("キャンバス準備完了");
-
-var RotateForSP = function(event){
-	console.log(event.beta);
-	window.removeEventListener("deviceorientation", RotateForSP);
-	setTimeout(function(){window.addEventListener("deviceorientation", RotateForSP);}, 500);
-};
-//スマホの画面回転対応
-window.addEventListener("deviceorientation", RotateForSP);
