@@ -1,0 +1,23 @@
+/*AspectRatioObjectの構造*/
+{
+  "dObject": {},//DOMオブジェクト(第一引数にDOMオブジェクトが入力された場合)
+  "w": 1200,//幅
+  "h": 720,//高さ
+  "type": "AsRaObject",//特に意味はない
+  "description": "AspectRatioObject",//同上
+  "wph": 1.6666666666666667,//Width Per Height
+  "hpw": 0.6//Height Per Width,
+}
+
+/*メソッド*/
+	comp()://AsRaObjectの比較メソッド
+		返り値:{
+		  "message": {
+		    "subject": "success",//成功したか否か
+		    "description": "Comparing was success."//詳細なメッセージ
+		  },
+		  "vr": {},//比較の結果相対的に縦長だった方
+		  "hl": {},//比較の結果相対的に横長だった方
+		  "fths": "width",////インスタンスをメソッドの引数にフィットさせる場合に高さと幅のどちらを100%にすれば見切れないか
+		  "ftgt": "height"//メソッドの引数をインスタンスにフィットさせる場合に高さと幅のどちらを100%にすれば見切れないか
+		}
