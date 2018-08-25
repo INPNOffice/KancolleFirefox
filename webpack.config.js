@@ -5,18 +5,8 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   mode: process.env.NODE_ENV || "development",
   entry: {
-    htmlWrap: path.resolve(
-      __dirname,
-      "src",
-      "scripts",
-      "htmlWrap.js"
-    ),
-    iframe: path.resolve(
-      __dirname,
-      "src",
-      "scripts",
-      "iframe.js"
-    )
+    htmlWrap: path.resolve(__dirname, "src", "scripts", "htmlWrap.js"),
+    iframe: path.resolve(__dirname, "src", "scripts", "iframe.js")
   },
   output: {
     path: path.resolve(__dirname, "dist"),
