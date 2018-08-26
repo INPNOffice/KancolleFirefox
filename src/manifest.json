@@ -12,12 +12,12 @@
 	"content_scripts": [
 		{
 			"matches": [ "http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/", "http://osapi.dmm.com/gadgets/ifr*" ],
-			"js":["iframe.js"],
+			"js":["scripts/iframe.bundle.js"],
 			"all_frames": true
 		},
 		{
 			"matches": [ "http://*/kcs2/index.php*" ],
-			"js":["aRatio.js", "htmlWrap.js"],
+			"js":["scripts/htmlWrap.bundle.js"],
 			"all_frames": true
 		}
 	],
