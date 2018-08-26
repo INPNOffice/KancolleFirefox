@@ -32,3 +32,4 @@ function htmlWrap() {
       break;
   }
 }
+console.log("hogehoge");
